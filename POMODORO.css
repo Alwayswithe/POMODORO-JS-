@@ -1,0 +1,79 @@
+.div {
+    margin: 0 auto;
+    width: 250px;
+    height: 300px;
+    border-style: solid;
+    border-color: rgb(231, 16, 16);
+    border-width: 4px;
+    border-radius: 20px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: crimson;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.what_time, 
+.what_time_workEnd {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.what_time_workEnd {
+    color: white;
+}
+
+.div_button_start {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 200px;
+    margin: 0 auto;
+    
+}
+
+button {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(232, 154, 9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 0.15s;
+    width: 80px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
